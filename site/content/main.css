@@ -1,0 +1,11 @@
+.text-center{
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-bold{
+  text-decoration: line-through;
+  font-weight: bold;
+}
