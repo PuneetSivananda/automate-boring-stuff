@@ -1,13 +1,7 @@
-var autoprefixer = require('gulp-autoprefixer');
 var csso = require('gulp-csso');
-var del = require('del');
 var gulp = require('gulp');
-var htmlmin = require('gulp-htmlmin');
-var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
-
 
 gulp.task('styles', function () {
   return gulp.src('./main.scss')
